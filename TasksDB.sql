@@ -1,14 +1,13 @@
-CREATE DATABASE tasks;
-USE tasks;
+CREATE DATABASE TasksDB;
 
-CREATE TABLE users (
+CREATE TABLE TasksDB.users (
     UserID int NOT NULL,
     UserName varchar(255),
     Password varchar(255),
     PRIMARY KEY (UserID)
 );
 
-CREATE TABLE tasks (
+CREATE TABLE TasksDB.tasks (
     TaskID int NOT NULL,
     TaskDetalis text,
     DateOfCreation date,
