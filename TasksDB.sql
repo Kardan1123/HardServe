@@ -2,14 +2,14 @@ CREATE DATABASE tasks;
 USE tasks;
 
 CREATE TABLE users (
-	UserID int NOT NULL,
+    UserID int NOT NULL,
     UserName varchar(255),
     Password varchar(255),
     PRIMARY KEY (UserID)
 );
 
 CREATE TABLE tasks (
-	TaskID int NOT NULL,
+    TaskID int NOT NULL,
     TaskDetalis text,
     DateOfCreation date,
     DueDate date,
